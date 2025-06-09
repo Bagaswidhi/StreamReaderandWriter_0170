@@ -27,5 +27,6 @@ int main (){
     
     // membuat objek input file stream
     ifstream infile;
-
+    // membuka file yang sudah ditulis
+    infile.open("contohfile.txt");
 }

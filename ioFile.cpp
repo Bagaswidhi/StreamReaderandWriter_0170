@@ -41,4 +41,7 @@ int main (){
         // tutup file tersebut setelah selesai
         infile.close();
     }
+    //jika tidak ditemukan file maka akan menampilkan pesan ini
+    else cout << "File tidak ditemukan!" << endl;
+    return 0;
 }
